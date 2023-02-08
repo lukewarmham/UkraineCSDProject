@@ -10,7 +10,7 @@ body {
 }
 
 #background {
-    src: url("https://www.ctvnews.ca/content/dam/ctvnews/en/images/2022/12/29/ukraine-1-6211651-1672330416121.jpg");
+    content: url("https://www.ctvnews.ca/content/dam/ctvnews/en/images/2022/12/29/ukraine-1-6211651-1672330416121.jpg");
 }
 
 p, h1, h2, h3, h4, h5, h6 {
