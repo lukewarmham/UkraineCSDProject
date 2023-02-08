@@ -8,10 +8,9 @@ body {
     padding: 0;
     background: var(--bgcolor);
     overflow-x: hidden;
-}
-
-#background {
-    content: url("https://www.ctvnews.ca/content/dam/ctvnews/en/images/2022/12/29/ukraine-1-6211651-1672330416121.jpg");
+    background-image: url("https://www.ctvnews.ca/content/dam/ctvnews/en/images/2022/12/29/ukraine-1-6211651-1672330416121.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #background-two {
