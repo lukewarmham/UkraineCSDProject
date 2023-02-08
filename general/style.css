@@ -13,6 +13,10 @@ body {
     content: url("https://www.ctvnews.ca/content/dam/ctvnews/en/images/2022/12/29/ukraine-1-6211651-1672330416121.jpg");
 }
 
+#background-two {
+    content: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpghttps://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpg");   
+}
+
 p, h1, h2, h3, h4, h5, h6 {
     color: var(--fgcolor);
     margin: 0;
