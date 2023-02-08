@@ -1,5 +1,15 @@
+:root {
+    --bgcolor: rgb(51,51,51);
+    --fgcolor: rgb(255,255,255);
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: rgb(51,51,51);
+    background: var(--bgcolor);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: var(--fgcolor);
+    margin: 0;
 }
