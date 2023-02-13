@@ -25,19 +25,35 @@ div#navbar {
     height: 8%;
 }
 
-div#navbar > a > #home {
-    
+div#navbar > button#home {
+    margin: 0;
+    font-size: 1.75vw;
+    background: var(--bgcolor);
+    border-color: var(--fgcolor);
+    border-style: solid;
+    border-width: 0.75px;
+    position: relative;
+    top: 1.77vh;
+    left: 53.5vw;
 }
 
-div#navbar > a > #home {
-    
+div#navbar > button#orgs {
+    margin: 0;
+    font-size: 1.75vw;
+    background: var(--bgcolor);
+    border-color: var(--fgcolor);
+    border-style: solid;
+    border-width: 0.75px;
+    position: relative;
+    top: 1.77vh;
+    left: 54vw;
 }
 
 #background-two {
     content: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpghttps://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpg");   
 }
 
-a, p {
+button, p {
     font-family: "Inter";
     font-weight: 300;
     color: var(--fgcolor);
@@ -60,7 +76,7 @@ h1#header {
     float: left;
     margin-left: 1%;
 
-    background-image: linear-gradient(0deg, var(--yellow), var(--yellow), var(--yellow), var(--yellow), var(--yellow), var(--accentcolor), var(--accentcolor), var(--accentcolor), var(--accentcolor), var(--accentcolor), var(--accentcolor));
+    background-image: linear-gradient(0deg, var(--yellow), var(--yellow), var(--yellow), var(--yellow), var(--yellow), var(--accentcolor), var(--accentcolor), var(--accentcolor), var(--accentcolor), var(--accentcolor));
   
     /* Set the background size and repeat properties. */
     background-size: 100%;
