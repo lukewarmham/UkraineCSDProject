@@ -12,9 +12,9 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-image: url("https://www.ctvnews.ca/content/dam/ctvnews/en/images/2022/12/29/ukraine-1-6211651-1672330416121.jpg");
+    background-image: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpghttps://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110%;
 }
 
 div#navbar {
@@ -30,8 +30,7 @@ div#navbar > button#home {
     margin: 0;
     font-size: 1.75vw;
     background: var(--bgcolor);
-    border-color: var(--fgselcolor);
-    color: var(--fgselcolor);
+    border-color: var(--fgcolor);
     border-style: solid;
     border-width: 0.75px;
     position: relative;
@@ -43,16 +42,13 @@ div#navbar > button#orgs {
     margin: 0;
     font-size: 1.75vw;
     background: var(--bgcolor);
-    border-color: var(--fgcolor);
+    border-color: var(--fgselcolor);
+    color: var(--fgselcolor);
     border-style: solid;
     border-width: 0.75px;
     position: relative;
     top: 1.77vh;
     left: 54vw;
-}
-
-#background-two {
-    content: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpghttps://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpg");   
 }
 
 button, p {
