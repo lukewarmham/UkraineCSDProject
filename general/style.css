@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
     background-image: url("https://www.ctvnews.ca/content/dam/ctvnews/en/images/2022/12/29/ukraine-1-6211651-1672330416121.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 110%;
 }
 
 div#navbar {
@@ -49,10 +49,6 @@ div#navbar > button#orgs {
     position: relative;
     top: 1.77vh;
     left: 54vw;
-}
-
-#background-two {
-    content: url("https://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpghttps://cloudfront-us-east-2.images.arcpublishing.com/reuters/LIS3WYTE7NJDRNILHJMPPKZPVE.jpg");   
 }
 
 button, p {
