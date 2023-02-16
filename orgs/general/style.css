@@ -31,11 +31,25 @@ div#navbar > button#home {
     font-size: 1.75vw;
     background: var(--bgcolor);
     border-color: var(--fgcolor);
+    color: var(--fgcolor);
     border-style: solid;
     border-width: 0.75px;
     position: relative;
     top: 1.77vh;
     left: 53.5vw;
+}
+
+button#orglink {
+    margin: 0;
+    font-size: 1.75vw;
+    background: rgba(0, 0, 0, 0);
+    border-color: var(--fgcolor);
+    color: var(--fgcolor);
+    border-style: solid;
+    border-width: 0.75px;
+    width: 25%;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 div#navbar > button#orgs {
@@ -51,18 +65,28 @@ div#navbar > button#orgs {
     left: 54vw;
 }
 
-button, p {
+div#background {
+    background-color: rgba(51,51,51, 0.75);
+    float:right;
+    height: 100vh;
+}
+
+p {
     font-family: "Inter";
     font-weight: 300;
     color: var(--fgcolor);
-    margin: 0;
+    margin: 5px 20px 5px 20px;
+    text-align: center;
+    font-size: 2vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Inter";
     font-weight: 700;
     color: var(--fgcolor);
-    margin: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: right;
 }
 
 h1#header {
@@ -98,6 +122,31 @@ p#cite {
     font-size: 0.5vw;
     font-style: italic;
     position: absolute;
-    left: 0px;
+    right: 0px;
     bottom: 0px;
+}
+
+div#cont {
+    text-align: center;
+}
+
+div#cont::before {
+    content: "";
+    display: block;
+    width: 79.6%;
+    height: 2px;
+    background: var(--fgcolor);
+    right: 0;
+    position: absolute;
+}
+
+div#cont::after {
+    content: "";
+    display: block;
+    width: 79.6%;
+    height: 2px;
+    background: var(--fgcolor);
+    right: 0;
+    top: 67%;
+    position: absolute;
 }
